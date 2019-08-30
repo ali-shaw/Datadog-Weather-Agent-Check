@@ -7,7 +7,7 @@ Queries the OpenWeatherMap API to retrieve current weather data and then creates
 2. `weather.clouds` - Current cloudiness as a %
 3. `weather.humidity` - Current humidity as a %
 
-These were selected as they were what I needed for my use case - feel free to take the format and apply it to other OpenWeatherMap API metrics! 
+These were selected as they were what I needed for my use case - feel free to take the format and apply it to other OpenWeatherMap API metrics! It is currently set to `London` as a location (see `url` variable in `weather.py` to change)
 
 Usage:
 1. Create a OpenWeatherMap account and retrieve your API Key: https://home.openweathermap.org/api_keys
